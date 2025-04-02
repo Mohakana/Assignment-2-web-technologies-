@@ -1,0 +1,98 @@
+/* CSS for Lerato's first web page */
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align text */
+}
+
+/* Styling for the header */
+h1 {
+    color: #ffb6c1; /* Light pink color */
+    margin-top: 20px;
+}
+
+/* Styling for the list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffb6c1; /* Light pink background for list items */
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Centering the image */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Styling for the table */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffb6c1; /* Light pink background for table header */
+    color: white;
+}
+
+td {
+    background-color: #f0f8ff; /* Light blue background for table cells */
+}
+
+/* Styling for the form */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffb6c1; /* Light pink background for form */
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
